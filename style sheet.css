@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 10px solid rgba(139, 83, 0, 0.562);
+  width: 700px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px 75px;
+  animation-name: change;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+img {
+  text-align: center;
+  border: 5px solid rgba(255, 203, 173, 0.993);
+  border-radius: 10px;
+}
+
+ul {
+  font-size: medium;
+  font-style: italic;
+}
+
+hr {
+  color: orange;
+}
+
+.para {
+  border: 2px solid burlywood;
+  padding: 10px 25px;
+  background-color: lightgoldenrodyellow;
+  font-size: large;
+}
+
+@keyframes change {
+  from {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  to {
+    background-color: blanchedalmond;
+  }
+}
+
+h1 {
+  color: navy;
+  font-weight: bolder;
+  animation: normal;
+}
+h3 {
+  color: mediumblue;
+}
+
+h1:hover {
+  border: 3px solid rgba(255, 203, 173, 0.993);
+  margin: 10px 25px;
+  padding: 10px 25px;
+}
+
+ul:hover {
+  border: 3px solid rgba(255, 203, 173, 0.993);
+  margin: 10px 25px;
+  padding: 10px 25px;
+}
+html {
+  background: url(images/basketball-court-floor-line-on-600nw-1007160199.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#first-para {
+  font-size: 31px brown;
+  border: 2px solid brown;
+  background-color: wheat;
+  margin: 10px 25px;
+  padding: 10px 25px;
+}
